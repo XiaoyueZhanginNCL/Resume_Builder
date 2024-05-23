@@ -26,7 +26,11 @@ export const Hero = () => {
         </p>
       </div>
       <FlexboxSpacer maxWidth={100} minWidth={50} className="hidden lg:block" />{" "}
-
+      <div className="mt-6 flex justify-center lg:mt-4 lg:block lg:grow">
+        <h1>
+            Auto Typing Resume
+        </h1>
+      </div>
     </section>
   );
 };

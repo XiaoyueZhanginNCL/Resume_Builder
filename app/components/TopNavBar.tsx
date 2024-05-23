@@ -21,7 +21,7 @@ export const TopNavBar = () => {
             <Link href='/'>
                 <div className='flex items-center justify-center gap-1'>
                     <Image src={'assets/heart.svg'} width={16} height={16} alt='logo' className='h-8 w-full' priority></Image>
-                    <h1 className='text-xl whitespace-nowrap font-bold text-black'>Resume Builder and Parser</h1>
+                    <h1 className='text-xl whitespace-nowrap font-bold text-primary'>Resume Builder and Parser</h1>
                 </div>
                 
             </Link>
